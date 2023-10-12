@@ -1,0 +1,56 @@
+
+
+public class Main {
+    public static void main(String[] args) {
+        String FlowersName = "Roses";
+        int flowersNumber = 101;
+        System.out.println(FlowersName);
+        System.out.println(flowersNumber);
+        //
+        int x = 15;
+        int y = 10;
+        int c = (x + y);
+        System.out.println(x + y);
+        System.out.println(c);
+        //
+        byte a = 7, b = 3, e = 11;
+        System.out.println(a + b + e);
+        //
+        short num1 = 111, num2 = 312, num3 = 9, num4 = 22;
+        System.out.println(num1 + num2 + num3 + num4);
+        //
+        double d;
+        d = 11.1;
+        System.out.println(d);
+        d = 12.5;
+        System.out.println(d);
+        //
+        final float pi = 3.14f;
+        final float g = 9.8f;
+        final String city = "Almaty";
+        System.out.println(pi);
+        System.out.println(g);
+        System.out.println(city);
+        //
+        byte p = 17;
+        short o = 1222;
+        int i = 333;
+        long s = 123456;
+        double q = 1.32;
+        float w = 1.1111f;
+        char m = 'S';
+        boolean r = true;
+        String studentName = "Georgii";
+        System.out.println(p + " " + o + " " + i + " " + s);
+        System.out.println(q + " " + w + " " + e + " " + r);
+        System.out.println(studentName);
+        //
+        short k = 5;
+        int op = k;
+        System.out.println(op);
+        int l = 22;
+        byte ty = (byte) l;
+        System.out.println(ty);
+
+    }
+}
